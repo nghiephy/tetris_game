@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+    height: 100%;
+    font-family: 'Odibee Sans', cursive;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.game-title {
+    padding-top: 20px;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.score-box {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+#score {
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.logo__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player-info {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
